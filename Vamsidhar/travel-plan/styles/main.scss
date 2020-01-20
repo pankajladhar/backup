@@ -1,0 +1,81 @@
+$bodyColor: #550000;
+$tabSheetBorderColor: #801515;
+$buttonColor: #d46a6a;
+
+@mixin tab() {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid $tabSheetBorderColor;
+  border-bottom: 0 none;
+  margin-bottom: -1px;
+  border-radius: 2px 2px 0 0;
+  cursor: pointer;
+}
+
+@mixin selectedTab() {
+  border-bottom: 1px solid $bodyColor;
+  font-weight: bold;
+}
+
+#travelPlan {
+  form {
+    margin: 10px;
+  }
+
+  label {
+    display: block;
+    font-size: 0.9em;
+    line-height: 2em;
+    margin-top: 5px;
+  }
+
+  input[type="text"] {
+    width: 98%;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+
+  input[name="trip-type"], legend {
+    position: absolute;
+    left: -9999px;
+  }
+
+  label[for="one-way"], label[for="return"] {
+    @include tab();
+  }
+
+  label.selected {
+    @include selectedTab();
+  }
+
+  .tab-body {
+    padding: 10px;
+    border: 1px solid $tabSheetBorderColor;
+  }
+
+  label[for="origin"] {
+    margin-top: 0;
+  }
+
+  button[type="submit"] {
+    display: block;
+    margin-top: 22px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 2px;
+    background: $buttonColor;
+    border: 0 none;
+    color: #550000;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  .trip-type-one-way {
+    #return-date, label[for="return-date"] {
+      display: none;
+    }
+  }
+}

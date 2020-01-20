@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MDExampleCode /> should render properly 1`] = `
+<div
+  className="MDExample__Code"
+>
+  <div
+    className="MDExample__Title"
+  >
+    Code
+  </div>
+  <div
+    className="MDExample__Content"
+  >
+    <span>
+      children
+    </span>
+  </div>
+</div>
+`;

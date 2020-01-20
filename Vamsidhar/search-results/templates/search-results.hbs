@@ -1,0 +1,40 @@
+<section class="search-results">
+  <a name="search-results"></a>
+  {{#if flights}}
+    <h1>{{plan.from}} &#8594; {{plan.to}} {{#if plan.return}} &#8594; {{plan.from}} {{/if}}</h1>
+    <ol>
+      {{#each flights}}
+      <li>
+        <strong class="fare">Rs. {{totalFare}}</strong>
+        <div class="itenary">
+          {{#onward}}
+          <dl class="flight-details onward">
+            <dt class="flightNo">Flight number</dt>
+            <dd>{{flightNumber}}</dd>
+            <dt class="route">Route</dt>
+            <dd>{{from}} &#8594; {{to}}</dd>
+            <dt class="timing">Departure:</dt>
+            <dd>{{departure}}</dd>
+            <dt class="timing">Arrive:</dt>
+            <dd>{{arrival}}</dd>
+          </dl>
+          {{/onward}}
+          {{#return}}
+          <dl class="flight-details return">
+            <dt class="flightNo">Flight number</dt>
+            <dd>AI-203</dd>
+            <dt class="route">Route</dt>
+            <dd>DEL &#8594; PNQ</dd>
+            <dt class="timing">Departure:</dt>
+            <dd>08.00 PM</dd>
+            <dt class="timing">Arrival:</dt>
+            <dd>11.00 PM</dd>
+          </dl>
+          {{/return}}
+          <button class="book">Book this flight</button>
+        </div>
+      </li>
+      {{/each}}
+    </ol>
+  {{/if}}
+</section>

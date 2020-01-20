@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactWeb should render correctly 1`] = `
+<main
+  className="ReactWeb"
+>
+  <InnerSubHeader
+    title="React web"
+  />
+  <div
+    className="container App__Body"
+  >
+    <TileContainer />
+  </div>
+</main>
+`;
+
+exports[`ReactWeb should render only loader 1`] = `
+<main
+  className="ReactWeb"
+>
+  <InnerSubHeader
+    title="React web"
+  />
+  <div
+    className="container App__Body"
+  >
+    <TileContainer />
+  </div>
+</main>
+`;

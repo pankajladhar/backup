@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flight Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app/styles/main.css" type="text/css"/>
+    <link rel="stylesheet" href="search/styles/main.css" type="text/css"/>
+    <link rel="stylesheet" href="search-results/styles/main.css" type="text/css"/>
+    <link rel="stylesheet" href="travel-plan/styles/main.css" type="text/css"/>
+    <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+    <script type="text/javascript" src="shared/utils/es6-module-loader-dev.js"></script>
+    <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.runtime.js"></script>
+    <script type="text/javascript" src="app/templates/app.hbs.js"></script>
+    <script type="text/javascript" src="search-results/templates/search-results.hbs.js"></script>
+    <script type="text/javascript" src="search/templates/search.hbs.js"></script>
+    <script type="text/javascript" src="travel-plan/templates/travel-plan.hbs.js"></script>
+  </head>
+  <body>
+    <!--
+    <form name="refine-search" action="/refine" method="GET">
+      <input type="range" name="price-range" min="0" max="10000" step="1000"/>
+    </form>
+    --> 
+    <script type="text/javascript">
+      window.addEventListener('load', function() {
+        System.import('composer.js').then(function(m) {
+          new m.Composer('FlightSearch'); 
+        });
+      });
+    </script>
+  </body>
+</html>

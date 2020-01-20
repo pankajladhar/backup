@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="HeaderContainer "
+>
+  <div
+    className="Header container"
+  >
+    <a
+      className="Logo"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Built With React"
+        src="logo.svg"
+      />
+      <span>
+        Built with React
+      </span>
+    </a>
+    <nav
+      className="Navigation "
+    >
+      <ul>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link undefined"
+            href="/ReactWeb"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Web
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link undefined"
+            href="/ReactNative"
+            onClick={[Function]}
+            style={undefined}
+          >
+            React Native
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link undefined"
+            href="/ReactBlogs"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Blogs
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link undefined"
+            href="/ReactTools"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Tools
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link Navigation-Link__Seprator"
+            href="/SubmitRequest"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Request
+          </a>
+        </li>
+        <li
+          className="Navigation-Item"
+        >
+          <a
+            aria-current={null}
+            className="Navigation-Link undefined"
+            href="/Feedback"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Feedback
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <button
+      className="Navigation__ToggleBtn "
+      onClick={[Function]}
+    >
+      <span
+        className="Navigation__ToggleBtn__Line"
+      />
+      <span
+        className="Navigation__ToggleBtn__Line"
+      />
+      <span
+        className="Navigation__ToggleBtn__Line"
+      />
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,52 @@
+.search-results {
+  color: #000;
+  background-color: #fff; }
+  .search-results h1 {
+    padding: 14px; }
+  .search-results ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .search-results ol li {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc; }
+  .search-results .itenary {
+    position: relative; }
+  .search-results .fare {
+    display: block;
+    font-size: 1.4em; }
+  .search-results .flight-details {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    font-size: 0.9em; }
+  .search-results dd, .search-results dt {
+    float: left;
+    margin: 0;
+    clear: left; }
+  .search-results dt.flightNo, .search-results dt.route {
+    position: absolute;
+    left: -9999px; }
+  .search-results dt.timing + dd {
+    clear: none;
+    margin-left: 5px; }
+  .search-results .book {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 3em;
+    right: 10px;
+    border-radius: 2px;
+    background: #ccc;
+    border-width: 1px; }
+
+@media only screen and (min-width: 768px) {
+  #searchResults {
+    height: 100%;
+    margin-left: 300px;
+    border-left: 1px solid black;
+    box-shadow: -10px 0 100px 16px #330000;
+    background-color: #fff; } }

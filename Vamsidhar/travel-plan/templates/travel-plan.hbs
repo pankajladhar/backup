@@ -1,0 +1,20 @@
+<form name="search-input" action="/search" method="GET" class="trip-type-one-way">
+  <legend>Travel details</legend>
+  <label for="one-way" class="trip-type selected">One way</label>
+  <input type="radio" id="one-way" name="trip-type" value="oneway" checked/>
+  <label for="return" class="trip-type">Return</label>
+  <input type="radio" id="return" name="trip-type" value="return"/>
+  <div class="tab-body">
+    <label for="origin">Origin</label>
+    <input type="text" id="origin" name="origin"/>
+    <label for="destination">Destination</label>
+    <input type="text" id="destination" name="destination"/>
+    <label for="departure-date">Departure date (DD-MM-YYYY)</label>
+    <input type="text" id="departure-date" name="departure-date"/>
+    <label for="return-date">Return date (DD-MM-YYYY)</label>
+    <input type="text" id="return-date" name="return-date"/>
+    <label for="passenger-count">Number of passengers</label>
+    <input type="text" id="passenger-count" name="passenger-count"/>
+    <button type="submit">Search</button>
+  </div>
+</form>

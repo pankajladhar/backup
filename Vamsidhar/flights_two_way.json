@@ -1,0 +1,64 @@
+{
+  "plan": {
+    "from": "Bangalore",
+    "to": "Hyderabad",
+    "return": true
+  },
+  "flights": [
+    {
+      "onward": {
+        "flightNumber": "SG-1039",
+        "departure": "15:00",
+        "arrival": "16:25",
+        "from": "BLR",
+        "to": "HYD",
+        "fare": 2085
+      },
+      "return": {
+        "flightNumber": "2T-104",
+        "departure": "21:50",
+        "arrival": "23:15",
+        "from": "HYD",
+        "to": "BLR",
+        "fare": 2361 
+      },
+      "totalFare": 2085
+    },{
+      "onward": {
+        "flightNumber": "6E-602",
+        "departure": 1464154500,
+        "arrival": 1464158700,
+        "from": "BLR",
+        "to": "HYD",
+        "fare": 1819
+      },
+      "return": {
+        "flightNumber": "6E-511",
+        "departure": "22:20",
+        "arrival": "23:25",
+        "from": "HYD",
+        "to": "BLR",
+        "fare": 2094
+      },
+      "totalFare": 1819 
+    },{
+      "onward": {
+        "flightNumber": "AI-513",
+        "departure": "08:15",
+        "arrival": "09:15",
+        "from": "BLR",
+        "to": "HYD",
+        "fare": 2455
+      },
+      "return": {
+        "flightNumber": "6E-265",
+        "departure": "21:25",
+        "arrival": "22:35",
+        "from": "HYD",
+        "to": "BLR",
+        "fare": 2782 
+      },
+      "totalFare": 2455 
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #550000;
+  color: #ffaaaa;
+}
+
+body, h1, p {
+  margin: 0;
+}
+
+body > h1 {
+  margin: 10px;
+  width: 100%; 
+}
+
+@media only screen and (min-width: 768px) {
+  body > h1 {
+    width: 300px;
+    float: left;
+    clear: left;
+  }
+}
+
+form[name="refine-search"] {
+  clear: left;
+}

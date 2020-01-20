@@ -1,0 +1,29 @@
+Setup:
+  1. Extract project
+  2. `npm install` in project directory
+  3. node server.js
+
+Uses Express to serve the static JSON responses to API requests (see server.js)
+
+Note to the evaluators:
+
+  Features not implemented:
+    1. Slider not implemented
+    2. Search results are static. One JSON reponse for 'one-way' trip and another for 'return'. Form values don't matter.
+
+  Focused on:
+    1. Meaningful markup
+    2. Minimal, es6 based JS abstractions for the app
+        a. Not using any framework like Ember/Angular. Wanted to write something from scratch.
+        b. App is organized as heirarchy of components beginning with 'app'.
+        c. See composer.js to see how the application is composed.
+        d. Haven't figured out all the abstractions yet.
+        e. Why not available frameworks?
+            Using something like Ember would have certainly helped me finish the app faster & better. However, I've been wanting to try my hand at building a framework based on es6 classes alone. 
+    3. Styling
+        a. App should vertically stack up in smaller screens.
+
+Handlebars & Sass compilation:
+Examples:
+  ./node_modules/handlebars/bin/handlebars search-results/templates/search-results.hbs -f search-results/templates/search-results.hbs.js
+  ./node_modules/node-sass/bin/node-sass travel-plan/styles/main.scss travel-plan/styles/main.css

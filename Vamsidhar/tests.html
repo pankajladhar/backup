@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.23.1.css">
+  <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+  <script type="text/javascript" src="shared/utils/es6-module-loader-dev.js"></script>
+  <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.min.js"></script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="https://code.jquery.com/qunit/qunit-1.23.1.js"></script>
+  <script src="node_modules/sinon/pkg/sinon-1.17.4.js"></script>
+  <script src="node_modules/sinon-qunit/lib/sinon-qunit.js"></script>
+  <script type="text/javascript">
+    window.addEventListener('load', function() {
+      System.import('shared/lib/tests/component.js');
+      System.import('shared/lib/tests/events.js');
+    });
+  </script>
+</body>
+</html>

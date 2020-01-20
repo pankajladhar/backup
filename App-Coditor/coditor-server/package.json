@@ -1,0 +1,31 @@
+{
+  "name": "cardify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "local": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajladhar/Cardify-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankajladhar/Cardify-Server/issues"
+  },
+  "homepage": "https://github.com/pankajladhar/Cardify-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.16.3",
+    "firebase": "^7.6.1",
+    "firebase-admin": "^8.9.0",
+    "jsonfile": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

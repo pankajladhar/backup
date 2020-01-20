@@ -1,0 +1,32 @@
+process.stdin.resume();
+process.stdin.setEncoding("utf-8");
+
+let inputString = "";
+
+process.stdin.on("data", chunk => {
+  inputString += chunk;
+});
+
+const generateData = () => {
+  const split = inputString.split("------ OUTPUT ------");
+  return {
+    input: split[0].trim().split("\n"),
+    output: split[1].trim().split("\n")
+  };
+};
+
+process.stdin.on("end", () => {
+  const { input, output } = generateData();
+  const results = {};
+  input.forEach((item, index) => {
+    const [param1, param2] = [...item.split(" ").map(n => Number(n))];
+    const result = sum(param1, param2);
+    results[`Test-${index + 1}`] =
+      result.toString() === output[index] ? "Pass" : "Fail";
+  });
+  process.stdout.write(JSON.stringify(results, null, 2));
+});
+
+const sum = (a, b) => {
+  return a -;
+};

@@ -1,0 +1,25 @@
+.SideBar {
+    
+}
+.SideBar__Logo {
+    margin: 0;
+    font-weight: normal;
+    padding: 16px;
+    font-size: 20px;
+    line-height: 1;
+    border-bottom: 1px #e8e8e8 solid;
+}
+
+.SideBar__List {
+    padding: 16px;
+}
+
+.SideBar__List a {
+    line-height: 1;
+    font-size: inherit;
+    color: #1978c8;
+}
+
+.SideBar__List a:hover  {
+    color: #f28a25;
+}

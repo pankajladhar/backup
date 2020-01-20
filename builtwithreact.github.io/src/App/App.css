@@ -1,0 +1,26 @@
+.App .App__Body {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  @media screen and (max-width: 767px) {
+    .App .App__Body {
+      margin-top: 30px;
+      margin-bottom: 30px; } }
+
+.container {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }

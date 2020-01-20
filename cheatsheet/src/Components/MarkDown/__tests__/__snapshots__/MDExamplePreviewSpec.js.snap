@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MDExamplePreview /> should render properly 1`] = `
+<div
+  className="MDExample__Preview markdown-body"
+>
+  <div
+    className="MDExample__Title"
+  >
+    Preview
+  </div>
+  <div
+    className="MDExample__Content"
+  >
+    <span>
+      MDExamplePreview
+    </span>
+  </div>
+</div>
+`;

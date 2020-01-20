@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MDExample /> should render properly if only children passed 1`] = `
+<div
+  className="MDExample"
+>
+  <div
+    className="MDExample__Body"
+  >
+    <span>
+      children
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<MDExample /> should render properly if title and description passed 1`] = `
+<div
+  className="MDExample"
+>
+  <div
+    className="MDExample__Info"
+  >
+    <h3>
+      title
+    </h3>
+    <p>
+      description
+    </p>
+  </div>
+  <div
+    className="MDExample__Body"
+  />
+</div>
+`;

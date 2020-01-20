@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarkDown /> should render properly 1`] = `
+<div
+  className="MarkDown"
+  id="id"
+>
+  <div
+    className="MarkDown__Divider"
+  >
+    <hr />
+  </div>
+  <h1
+    className="MarkDown__Title"
+  >
+    title
+  </h1>
+  <p
+    className="MarkDown__Info"
+  >
+    description
+  </p>
+</div>
+`;
+
+exports[`<MarkDown /> should render properly when children passed 1`] = `
+<div
+  className="MarkDown"
+  id="id"
+>
+  <div
+    className="MarkDown__Divider"
+  >
+    <hr />
+  </div>
+  <h1
+    className="MarkDown__Title"
+  >
+    title
+  </h1>
+  <p
+    className="MarkDown__Info"
+  >
+    description
+  </p>
+  <span>
+    children
+  </span>
+</div>
+`;

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.23.1.css">
+  <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+  <script type="text/javascript" src="../../../shared/utils/es6-module-loader-dev.js"></script>
+  <script type="text/javascript" src="../../../node_modules/handlebars/dist/handlebars.runtime.js"></script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="https://code.jquery.com/qunit/qunit-1.23.1.js"></script>
+  <script src="../../../shared/lib/tests/component.js"></script>
+  <script type="text/javascript">
+    window.addEventListener('load', function() {
+      System.import('app/app.js').then(function(m) {
+        var app = new m.App(document.body);
+        app.render({title: 'Flight Search'});
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "plan": {
+    "from": "Bangalore",
+    "to": "Hyderabad"
+  },
+  "flights": [
+    {
+      "onward": {
+        "flightNumber": "SG-1039",
+        "departure": 1464213000,
+        "arrival": 1464218100,
+        "from": "BLR",
+        "to": "HYD",
+        "fare": 2085
+      },
+      "totalFare": 2085
+    },{
+      "onward": {
+        "flightNumber": "6E-602",
+        "departure": 1464154500,
+        "arrival": 1464158700,
+        "from": "BLR",
+        "to": "HYD",
+        "fare": 1819
+      },
+      "totalFare": 1819 
+    },{
+      "onward": {
+        "flightNumber": "Air India",
+        "departure": 1464189000,
+        "arrival": 1464192600,
+        "from": "BLR",
+        "to": "HYD",
+        "fare": 2455
+      },
+      "totalFare": 2455 
+    }
+  ]
+}

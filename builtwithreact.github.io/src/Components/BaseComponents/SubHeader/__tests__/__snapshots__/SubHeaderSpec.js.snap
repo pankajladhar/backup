@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubHeader renders correctly 1`] = `
+<div
+  className="HeadingContainer"
+>
+  <div
+    className="Heading container"
+  >
+    <h1
+      className="Tagline"
+    >
+      One place to showcase your work
+    </h1>
+    <div
+      className="SubTagline"
+    >
+      <span>
+        Implemented 
+      </span>
+      <span
+        className="SubTagline__Item SubTagline__Item--Front"
+      >
+        <span
+          className="is-visible"
+        >
+          using
+        </span>
+        <span
+          className="is-hidden"
+        >
+          for
+        </span>
+      </span>
+      <span>
+         React / React Native
+      </span>
+    </div>
+    <div
+      className="Heading__Cta"
+    >
+      <a
+        className="Button"
+        href="/SubmitRequest"
+        onClick={[Function]}
+      >
+        Submit Request
+      </a>
+      <a
+        className="Button"
+        href="/Feedback"
+        onClick={[Function]}
+      >
+        Give Feedback
+      </a>
+    </div>
+  </div>
+</div>
+`;

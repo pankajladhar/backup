@@ -1,0 +1,5 @@
+.ReactBlogs .BlogItemLoader, .ReactBlogs .BlogItem {
+  margin-bottom: 60px; }
+  @media screen and (max-width: 767px) {
+    .ReactBlogs .BlogItemLoader, .ReactBlogs .BlogItem {
+      margin-bottom: 30px; } }

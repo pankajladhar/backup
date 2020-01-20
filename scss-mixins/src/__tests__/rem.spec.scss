@@ -1,0 +1,16 @@
+@import 'true';
+@import '../rem';
+@include describe('rem()') {
+  @include it('should return a rem unit given a unitless value') {
+    @include assert {
+      @include output {
+        @include fontSize(16px);
+      }
+
+      @include expect {
+        font-size: 16px;
+        font-size: 1rem;
+      }
+    }
+  }
+}

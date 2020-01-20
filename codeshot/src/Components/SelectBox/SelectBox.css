@@ -1,0 +1,4 @@
+.SelectBox {
+  width: 200px; }
+  .SelectBox .Select-menu-outer {
+    z-index: 9999; }

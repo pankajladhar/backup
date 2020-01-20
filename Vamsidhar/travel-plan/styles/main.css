@@ -1,0 +1,55 @@
+#travelPlan form {
+  margin: 10px; }
+
+#travelPlan label {
+  display: block;
+  font-size: 0.9em;
+  line-height: 2em;
+  margin-top: 5px; }
+
+#travelPlan input[type="text"] {
+  width: 98%;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0 2px; }
+
+#travelPlan input[name="trip-type"], #travelPlan legend {
+  position: absolute;
+  left: -9999px; }
+
+#travelPlan label[for="one-way"], #travelPlan label[for="return"] {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #801515;
+  border-bottom: 0 none;
+  margin-bottom: -1px;
+  border-radius: 2px 2px 0 0;
+  cursor: pointer; }
+
+#travelPlan label.selected {
+  border-bottom: 1px solid #550000;
+  font-weight: bold; }
+
+#travelPlan .tab-body {
+  padding: 10px;
+  border: 1px solid #801515; }
+
+#travelPlan label[for="origin"] {
+  margin-top: 0; }
+
+#travelPlan button[type="submit"] {
+  display: block;
+  margin-top: 22px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 2px;
+  background: #d46a6a;
+  border: 0 none;
+  color: #550000;
+  font-weight: bold;
+  font-size: 1.1em; }
+
+#travelPlan .trip-type-one-way #return-date, #travelPlan .trip-type-one-way label[for="return-date"] {
+  display: none; }

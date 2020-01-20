@@ -1,0 +1,18 @@
+.BlogItem {
+  display: flex; }
+  .BlogItem .BlogItem__Image {
+    width: 250px;
+    height: 100%;
+    margin-right: 40px; }
+    @media screen and (max-width: 767px) {
+      .BlogItem .BlogItem__Image {
+        width: 100px;
+        margin-right: 20px; } }
+  .BlogItem .BlogItem__Body {
+    display: flex;
+    flex-direction: column;
+    flex: 1; }
+  .BlogItem .BlogItem__Body__Content__Link {
+    border-top: 1px #ccc solid;
+    margin-top: auto;
+    text-transform: uppercase; }

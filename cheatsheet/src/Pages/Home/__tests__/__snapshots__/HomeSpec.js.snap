@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<div
+  className="Home"
+>
+  <section
+    className="Home__LeftPanel"
+  >
+    <div
+      className="Home__LeftPanel__Content"
+    >
+      <h1
+        className="Home__LeftPanel__Title"
+      >
+        <span
+          className="sr-only"
+        >
+          Cheatsheet
+        </span>
+      </h1>
+      <div
+        className="Home__LeftPanel__Content__SocialIcons"
+      >
+        <a
+          className="Home__LeftPanel__Content__SocialIcons__GitHub"
+          href="https://github.com/pankajladhar/cheatsheet"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            className="sr-only"
+          >
+             Github | Pankaj Ladhar 
+          </span>
+        </a>
+        <a
+          className="Home__LeftPanel__Content__SocialIcons__LinkedIn"
+          href="https://www.linkedin.com/in/pankajladhar/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            className="sr-only"
+          >
+             LinkedIn | Pankaj Ladhar 
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    className="Home__RightPanel"
+  >
+    <div
+      className="Home__RightPanel__Content"
+    >
+      <h2
+        className="Home__RightPanel__Title"
+      >
+        Collection of Cheatsheet:
+      </h2>
+      <ul>
+        <li>
+          <a
+            className="btn"
+            href="/cheatsheet/markdown"
+            onClick={[Function]}
+          >
+            Markdown
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+`;

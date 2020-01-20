@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Markdown renders correctly 1`] = `
+<div
+  className="MarkDownPage"
+>
+  <div
+    className="MarkDownPage__Sidebar"
+  >
+    <SideBar
+      heading="Markdown"
+      options={
+        Array [
+          Object {
+            "id": "headings",
+            "title": "Headings",
+          },
+        ]
+      }
+    />
+  </div>
+  <main
+    className="MarkDownPage__Content"
+  >
+    <MarkDown
+      description="description"
+      id="headings"
+      title="Headings"
+    >
+      <MDExample
+        description="subDescription"
+        title="subTitle"
+      >
+        <MDExampleCode>
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "code",
+              }
+            }
+          />
+        </MDExampleCode>
+        <MDExamplePreview>
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "preview",
+              }
+            }
+          />
+        </MDExamplePreview>
+      </MDExample>
+    </MarkDown>
+  </main>
+</div>
+`;

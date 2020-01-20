@@ -1,0 +1,12 @@
+<section class="search-results">
+{{#if hasFlights}}
+  <h1>Pune > Delhi > Pune</h1>
+  <ol>
+  {{#flights}}
+    <li>{{airline}}</li>
+  {{/flights}}
+  </ol>
+{{else}}
+  <p>There are no flights for the travel plan.</p>
+{{/if}}
+</section>

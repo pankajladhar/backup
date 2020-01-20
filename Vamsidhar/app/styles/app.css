@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, h1 {
+  margin: 0;
+}

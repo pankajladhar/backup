@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar renders correctly 1`] = `
+<aside
+  className="SideBar"
+>
+  <a
+    className="SideBar__MainLogo"
+    href="/cheatsheet"
+    onClick={[Function]}
+  >
+    <span
+      className="sr-only"
+    >
+      Cheatsheet
+    </span>
+  </a>
+  <h2
+    className="SideBar__Logo"
+  >
+    Sidebar
+  </h2>
+  <ul
+    className="SideBar__List"
+  >
+    <li>
+      <a
+        href="/cheatsheet/markdown/#id1"
+      >
+        title1
+      </a>
+    </li>
+    <li>
+      <a
+        href="/cheatsheet/markdown/#id2"
+      >
+        title2
+      </a>
+    </li>
+  </ul>
+</aside>
+`;

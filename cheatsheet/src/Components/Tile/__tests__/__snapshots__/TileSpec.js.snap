@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile renders correctly 1`] = `
+<div
+  className="Tile"
+>
+  Tile works
+</div>
+`;
