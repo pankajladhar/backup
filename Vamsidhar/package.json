@@ -4,7 +4,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "handlebars": "^4.0.5",
-    "node-sass": "^3.7.0",
+    "node-sass": "^7.0.0",
     "sinon": "^1.17.4",
     "sinon-qunit": "^2.0.0"
   }
